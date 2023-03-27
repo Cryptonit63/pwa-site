@@ -5,4 +5,4 @@ importScripts(
 // This is your Service Worker, you can put any of your custom Service Worker
 // code in this file, above the `precacheAndRoute` line.
 
-workbox.precaching.precacheAndRoute(self.__WB_MANIFEST || []);
+workbox.precaching.precacheAndRoute(self.__manifest.json || []);

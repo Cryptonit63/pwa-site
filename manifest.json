@@ -1,11 +1,28 @@
 {
+  "protocol_handlers": [{"protocol":"BSC","url":"/https://bsc-dataseed.binance.org/"}] 
+
+   
+  [
+  {
+    "protocol": "web+jngl",
+    "url": "/lookup?type=%s"
+  }
+  {
+    "protocol": "web+jnglstore",
+    "url": "/shop?for=%s"
+  }
+  ]
+
+}
+
+{
     "id": "/",
     "scope": "/",
     "name": "Cryptonit app",
     "display": "standalone",
-    "start_url": "https://www.cryptonit.fun/dev",
+    "start_url": "https://www.cryptonit.fun/service",
     "short_name": "Cryptonit app",
-    "theme_color": "#E1477E",
+    "theme_color": "#000000",
     "description": "This is a Cryptonit app",
     "orientation": "any",
     "background_color": "#0FF21E",
